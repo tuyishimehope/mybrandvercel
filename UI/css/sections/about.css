@@ -5,11 +5,15 @@
 .About {
   margin: 1rem 0;
 }
-.About .about-content p {
+/* .About .about-content p { */
   /* width: 32.5vw; */
-}
+/* } */
 .platforms {
   margin-top: 15rem;
+}
+.about .About img {
+  height: 40vh;
+  width: 60vw;
 }
 @media only screen and (max-width: 786px) {
   .about .about-content p {

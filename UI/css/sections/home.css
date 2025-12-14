@@ -140,8 +140,9 @@ h4 {
 .about img {
   margin-top: 5vh;
   /* height: 40vh; */
-  /* width: 40vw; */
-  object-fit: cover;
+  width: 20vw;
+  object-fit: contain;
+  border-radius: 8px;
 }
 @media only screen and (max-width: 900px) {
   .about {
@@ -149,12 +150,12 @@ h4 {
     flex-direction: column;
     margin: 18rem 0 0 0;
   }
-  .about img {
+  /* .about img {
     margin-left: 0vw;
     height: 40vh;
     width: 70vw;
     object-fit: cover;
-  }
+  } */
 }
 @media only screen and (max-width: 768px) {
   .about {
@@ -163,12 +164,12 @@ h4 {
     flex-direction: column;
     margin: 28em 0 4rem 0;
   }
-  .about img {
+  /* .about img {
     margin: 0;
-    /* height: 40vh; */
+    height: 40vh;
     width: 50vw;
     object-fit: cover;
-  }
+  } */
 }
 @media only screen and (max-width: 468px) {
   .about {
@@ -177,12 +178,12 @@ h4 {
     flex-direction: column;
     margin: 4rem 0 4rem 0;
   }
-  .about img {
+  /* .about img {
     margin: 0;
-    /* height: 40vh; */
+    height: 40vh;
     width: 80vw;
     object-fit: cover;
-  }
+  } */
 }
 
 .skills {
