@@ -40,6 +40,7 @@ const adminButton = document.querySelector(".adminButtons");
 // });
 
 window.addEventListener("load", () => {
+  window.location.href="https://www.hopetuyishime.com"
   // Check if user is already authenticated
   const token = localStorage.getItem("token");
 
