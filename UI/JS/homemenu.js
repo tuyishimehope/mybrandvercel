@@ -40,7 +40,7 @@ const adminButton = document.querySelector(".adminButtons");
 // });
 
 window.addEventListener("load", () => {
-  window.location.href="https://www.hopetuyishime.com"
+  window.location.href="https://www.hopetuyishime.com?utm_source=mybrandvercel"
   // Check if user is already authenticated
   const token = localStorage.getItem("token");
 
